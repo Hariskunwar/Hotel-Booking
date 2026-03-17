@@ -117,7 +117,7 @@ export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
     "username": "Great Stack",
     "email": "user.greatstack@gmail.com",
-    "image": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJ2N2c5YVpSSEFVYVUxbmVYZ2JkSVVuWnFzWSJ9",
+    "image": "https://cdn.dribbble.com/userupload/7134753/file/original-4894a822e3a10c28b4169025694c8565.png?format=webp&resize=400x300&vertical=center",
     "role": "hotelOwner",
     "createdAt": "2025-03-25T09:29:16.367Z",
     "updatedAt": "2025-04-10T06:34:48.719Z",
