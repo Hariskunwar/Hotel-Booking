@@ -8,6 +8,7 @@ import userRouter from "./routes/userRoute.js";
 import hotelRouter from "./routes/hotelRoute.js";
 import connectCloudinary from "./config/cloudinary.js";
 import roomRouter from "./routes/roomRoute.js";
+import bookingRouter from "./routes/bookingRoute.js";
 
 const app=express();
 app.use(cors());
@@ -22,8 +23,9 @@ app.use('/api/clerk',clerkWebhooks)
 app.get("/",(req,res)=>res.send("APi is working"));
 
 app.use("/api/user",userRouter)
-app.use("/api/user",hotelRouter)
+app.use("/api/hotels",hotelRouter)
 app.use("/api/rooms",roomRouter);
+app.use("/api/bookings",bookingRouter)
 
 
 const PORT=process.env.PORT||4000;
